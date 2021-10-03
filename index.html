@@ -104,6 +104,44 @@
                 </video>
             </figure>
         </section>
+        <form>
+            <fieldset>
+                <legend>Choose a fruit</legend>
+                <input type="radio" id="strawberry">
+                <label for="strawberry">Strawberry</label>
+                <br>
+                <input type="checkbox" id="mango">
+                <label for="mango">Mango</label>
+            </fieldset>
+            <label for="fruit">Fruit:</label>
+            <input type="text" id="fruit">
+            <label for="date-input">Date:</label>
+            <input type="date" id="date-input">
+            <br>
+            <label for="favorite-fruit">Tell us your favorite fruit:</label>
+            <br>
+            <textarea is="favorite-fruit">My favorite fruit is...</textarea>
+            <br>
+            <label for="ice-cream-choice">Choose a flavor:</label>
+            <input list="ice-cream-flavors" id="ice-cream-choice">
+            <datalist id="ice-cream-flavors">
+                <option value="Watermelon">
+                <option value="Coconut">
+                <option value="Mango">
+                <option value="Vanilla">
+            </datalist>
+            <br>
+            <label for="fruit-select">Choose a fruit:</label>
+            <select id="fruit-select">
+                <option value="">--Please choose an option--</option>
+                <option value="watermelon">Watermelon</option>
+                <option value="strawberry">Strawberry</option>
+                <option value="mango">Mango</option>
+                <option value="apple">Apple</option>
+            </select>
+            <br>
+            <button>Click here</button>
+        </form>
     </main>
     <footer>
         <br>
