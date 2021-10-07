@@ -1,0 +1,12 @@
+**Standup**
+- Person 1
+  - What did I work on yesterday?
+    - Yesterday, I worked on breaking down project tasks and creating tickets for them.
+  - What am I working on today?
+    - Today, I will start on the first task of creating the home page of our web application.
+  - What issues are blocking me?
+    - No issues are blocking me at the moment.
+- Person 2
+  - What did I work on yesterday?
+  - What am I working on today?
+  - What issues are blocking me?
