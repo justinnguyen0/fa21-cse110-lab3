@@ -6,6 +6,7 @@ h1 {
     border-color: rgb(52, 174, 235);
     border-radius: 5px;
     margin: auto;
+    text-align: center;
 }
 
 #attendance {
@@ -36,4 +37,9 @@ h1 {
 
 .agenda-element {
     padding: 1rem 1rem 1rem 1rem;
+}
+
+#question {
+    color: tomato;
+    text-decoration: underline;
 }
