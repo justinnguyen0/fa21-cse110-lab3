@@ -1,6 +1,11 @@
 /* making Hackathon Ideas blue */
 h1 {
     color: rgb(52, 174, 235);
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(52, 174, 235);
+    border-radius: 5px;
+    margin: auto;
 }
 
 #attendance {
@@ -9,4 +14,26 @@ h1 {
 
 .pink-background {
     background-color: pink;
+}
+
+#fruit-form {
+    margin-top: 1pc;
+    margin-bottom: 1pc;
+    margin-left: 1pt;
+    margin-right: 1pt;
+}
+
+#fruit {
+    margin: 0px 0px 1pc 0px;
+}
+
+.attendance-element {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.agenda-element {
+    padding: 1rem 1rem 1rem 1rem;
 }
