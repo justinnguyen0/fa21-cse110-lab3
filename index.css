@@ -7,6 +7,10 @@ h1 {
     border-radius: 5px;
     margin: auto;
     text-align: center;
+    height: 50px;
+    width: 50%;
+    min-width: 50%;
+    max-width: 100%;
 }
 
 #attendance {
