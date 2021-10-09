@@ -9,7 +9,7 @@ h1 {
     text-align: center;
     height: 35px;
     width: 50%;
-    min-width: 50%;
+    min-width: 25%;
     max-width: 100%;
     position: static;
 }
@@ -86,4 +86,10 @@ h1 {
     grid-column-end: auto;
     grid-row-start: auto;
     grid-row-end: 1;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        width: 25%;
+    }
 }
