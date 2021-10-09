@@ -93,3 +93,39 @@ h1 {
         width: 25%;
     }
 }
+
+* {
+    background: lightcyan;
+}
+
+a[href] {
+    font-size: small;
+}
+
+h1:hover {
+    color: lightseagreen;
+}
+
+button, label {
+    text-decoration: underline;
+}
+
+fieldset legend {
+    color: red;
+}
+
+ol > li {
+    color: dodgerblue;
+}
+
+h2 ~ h3 {
+    text-decoration: underline;
+}
+
+h2 + h2 {
+    text-decoration: underline;
+}
+
+li.attendance-element {
+    color: purple;
+}
