@@ -33,7 +33,7 @@
     </header>
     <main>
         <h1 id="hackathon-ideas">Hackathon Ideas</h1>
-        <h2 style="color:#4634eb"id="brainstorming">Brainstorming</h2>
+        <h2 style="color:#4634eb;" id="brainstorming">Brainstorming</h2>
         <h2 id="date">10/02/2021</h2>
         <h3 id="attendance">Attendance</h3>
         <ul>
@@ -94,21 +94,23 @@
                 <summary>Theme</summary>
                 Fun
             </details>
-            <figure>
-                <figcaption>Audio Recording:</figcaption>
-                <audio
-                    controls
-                    src="assets/audio_recording.mp3">
-                        Your browser does not support the <code>audio</code> element.
-                </audio>
-            </figure>
-            <figure>
-                <figcaption>Video Recording:</figcaption>
-                <video controls width="250">
-                    <source src="assets/video_recording.mp4" type="video/mp4">
-                    Sorry, your browser doesn't support embedded videos.
-                </video>
-            </figure>
+            <div id="recordings">
+                <figure>
+                    <figcaption>Audio Recording:</figcaption>
+                    <audio
+                        controls
+                        src="assets/audio_recording.mp3">
+                            Your browser does not support the <code>audio</code> element.
+                    </audio>
+                </figure>
+                <figure>
+                    <figcaption>Video Recording:</figcaption>
+                    <video controls width="250">
+                        <source src="assets/video_recording.mp4" type="video/mp4">
+                        Sorry, your browser doesn't support embedded videos.
+                    </video>
+                </figure>
+            </div>
         </section>
         <form>
             <fieldset class="pink-background" id="fruit-form">
@@ -118,13 +120,20 @@
                 <input type="checkbox" id="mango">
                 <label for="mango">Mango</label>
             </fieldset>
-            <label for="fruit">Fruit:</label>
-            <input type="text" id="fruit">
-            <br>
-            <label for="date-input">Date:</label>
-            <input type="date" id="date-input">
-            <label id="favorite-fruit-label" for="favorite-fruit">Tell us your favorite fruit:</label>
-            <textarea id="favorite-fruit">My favorite fruit is...</textarea>
+            <div class="fruit-container">
+                <div class="fruit-element">
+                    <label for="fruit">Fruit:</label>
+                    <input type="text" id="fruit">
+                </div>
+                <div class="fruit-element">
+                    <label for="date-input">Date:</label>
+                    <input type="date" id="date-input">
+                </div>
+                <div class="fruit-element">
+                    <label id="favorite-fruit-label" for="favorite-fruit">Tell us your favorite fruit:</label>
+                    <textarea id="favorite-fruit">My favorite fruit is...</textarea>
+                </div>
+            </div>
             <br>
             <label for="ice-cream-choice">Choose a flavor:</label>
             <input list="ice-cream-flavors" id="ice-cream-choice">
