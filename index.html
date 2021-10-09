@@ -75,7 +75,7 @@
             <li>Rubik's Cube Solver
                 <ul>
                     <li>Upload images of each side of the <a href="https://en.wikipedia.org/wiki/Rubik%27s_Cube" target="_blank">Rubik's cube</a> to generate instructions to solve it</li>
-                    <li><img src="assets/rubiks_cube.jpg" alt="Rubik's Cube"></li>
+                    <li><img id="picture" src="assets/rubiks_cube.jpg" alt="Rubik's Cube"></li>
                 </ul>
             </li>
             <li>ASCII Art Generator
@@ -138,25 +138,28 @@
                     <textarea id="favorite-fruit">My favorite fruit is...</textarea>
                 </div>
             </div>
-            <br>
-            <label for="ice-cream-choice">Choose a flavor:</label>
-            <input list="ice-cream-flavors" id="ice-cream-choice">
-            <datalist id="ice-cream-flavors">
-                <option value="Watermelon">
-                <option value="Coconut">
-                <option value="Mango">
-                <option value="Vanilla">
-            </datalist>
-            <br>
-            <label for="fruit-select">Choose a fruit:</label>
-            <select id="fruit-select">
-                <option value="">--Please choose an option--</option>
-                <option value="watermelon">Watermelon</option>
-                <option value="strawberry">Strawberry</option>
-                <option value="mango">Mango</option>
-                <option value="apple">Apple</option>
-            </select>
-            <br>
+            <div class="ice-cream-container">
+                <div class="ice-cream-element">
+                    <label for="ice-cream-choice">Choose a flavor:</label>
+                    <input list="ice-cream-flavors" id="ice-cream-choice">
+                    <datalist id="ice-cream-flavors">
+                        <option value="Watermelon">
+                        <option value="Coconut">
+                        <option value="Mango">
+                        <option value="Vanilla">
+                    </datalist>
+                </div>
+                <div class="ice-cream-element">
+                    <label for="fruit-select">Choose a fruit:</label>
+                    <select id="fruit-select">
+                        <option value="">--Please choose an option--</option>
+                        <option value="watermelon">Watermelon</option>
+                        <option value="strawberry">Strawberry</option>
+                        <option value="mango">Mango</option>
+                        <option value="apple">Apple</option>
+                    </select>
+                </div>
+            </div>
             <button id="click-button">Click here</button>
         </form>
     </main>
